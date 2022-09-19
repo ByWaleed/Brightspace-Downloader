@@ -2,7 +2,7 @@ const pageLoadTime = 30000;
 const clickDelay = 3000;
 
 $(document).ready(() => {
-  fetch("https://api.npoint.io/50ab76218c498b03daee")
+  fetch("https://raw.githubusercontent.com/ByWaleed/Brightspace-Downloader/main/modules.json")
     .then((response) => response.json())
     .then((modules) => {
       for (let i = 0; i < modules.length; i++) {
